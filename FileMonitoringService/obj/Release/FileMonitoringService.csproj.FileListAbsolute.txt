@@ -1,0 +1,7 @@
+D:\keroles\Course 24 WinServices Projects\FileMonitoringService\bin\Release\FileMonitoringService.exe.config
+D:\keroles\Course 24 WinServices Projects\FileMonitoringService\bin\Release\FileMonitoringService.exe
+D:\keroles\Course 24 WinServices Projects\FileMonitoringService\bin\Release\FileMonitoringService.pdb
+D:\keroles\Course 24 WinServices Projects\FileMonitoringService\obj\Release\FileMonitoringService.csproj.AssemblyReference.cache
+D:\keroles\Course 24 WinServices Projects\FileMonitoringService\obj\Release\FileMonitoringService.csproj.CoreCompileInputs.cache
+D:\keroles\Course 24 WinServices Projects\FileMonitoringService\obj\Release\FileMonitoringService.exe
+D:\keroles\Course 24 WinServices Projects\FileMonitoringService\obj\Release\FileMonitoringService.pdb
