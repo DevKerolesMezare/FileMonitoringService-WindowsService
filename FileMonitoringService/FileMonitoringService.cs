@@ -123,6 +123,7 @@ namespace FileMonitoringService
 
         protected override void OnStop()
         {
+            watcher.EnableRaisingEvents = false; // ايقاف المراقبة
             // عند إيقاف الخدمة
             LogServiceEvent("Services Stopped...");
         }
