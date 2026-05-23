@@ -1,19 +1,32 @@
 # FileMonitoringService - Windows Service
 
-## Overview
-A Windows Service that monitors a folder for new files, renames them using a GUID, moves them to a destination folder, deletes the originals, and logs all operations.
+A Windows Service built with C# that monitors a folder for new files, renames them using GUIDs, moves them to a destination folder, deletes the original files, and logs all operations.
 
 ## Features
-- Folder monitoring for new files.
-- File renaming with GUID for uniqueness.
-- Move files to destination folder and delete originals.
-- Logging of all operations.
-- Dynamic configuration via `App.config`.
-- **Important:** Source and destination folders must be created manually before running the service, as the service does not create them automatically.
+
+- Real-time folder monitoring
+- Automatic file renaming using GUIDs
+- File transfer to destination folder
+- Automatic deletion of source files
+- Logging system for tracking operations
+- Dynamic configuration using App.config
+
+## Technologies Used
+
+- C#
+- .NET Framework
+- Windows Services
+- File System Monitoring
+- App.config
+
+## Important Notes
+
+- Source and destination folders must be created manually before running the service.
+- The service does not create folders automatically.
 
 ## Installation
-1. Build the project to generate `FileMonitoringService.exe`.
-2. Ensure that the source and destination folders exist.
-3. Open Command Prompt as Administrator.
-4. Install the service:
 
+1. Build the project to generate `FileMonitoringService.exe`
+2. Create the source and destination folders
+3. Open Command Prompt as Administrator
+4. Install the service
